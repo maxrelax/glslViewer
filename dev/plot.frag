@@ -22,6 +22,8 @@ uniform vec2 u_resolution;
 uniform sampler2D u_tex0;
 uniform vec2 u_tex0Resolution;
 
+// some sample easing functions
+
 float sineIn(float t) {
   return sin((t - 1.0) * HALF_PI) + 1.0;
 }
